@@ -1,0 +1,33 @@
+﻿{
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "http://localhost:27747",
+            "sslPort": 44339
+        }
+    },
+    "profiles": {
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "MvcApp": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "applicationUrl": "http://+:5001;http://+:5000",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "PROJECT_NAME": "WebAPI Template",
+                "ASPNETCORE_URLS": "http://localhost:5000",
+                "COMPLUS_ReadyToRun": "0",
+                "CORECLR_PROFILER": "{57e1aa68-2229-41aa-9931-a6e93bbc64d8}",
+                "CORECLR_ENABLE_PROFILING": "1",
+                "CORECLR_PROFILER_PATH": "/home/robford/.nuget/packages/appdynamics.agentsdk/4.5.1/runtimes/linux-x64/native/libappdprofiler.so"
+            }
+        }
+    }
+}

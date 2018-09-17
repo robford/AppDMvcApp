@@ -1,0 +1,18 @@
+{
+    "controller": {
+        "host": "deluxe.saas.appdynamics.com",
+        "port": 443,
+        "ssl": true,
+        "account": "deluxe",
+        "password": "1e304fc1-13da-4265-a5b9-694b28dffc44"
+    },
+    "application": {
+        "name": "webapi-template-Dev",
+        "tier": ".NET web service",
+        "node": "testnew"
+    },
+    "log": {
+        "directory": "/tmp/AppDLogs",
+        "level": "trace"
+    }
+}
