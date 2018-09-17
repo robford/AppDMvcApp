@@ -1,10 +1,10 @@
 {
     "controller": {
-        "host": "deluxe.saas.appdynamics.com",
+        "host": "",
         "port": 443,
         "ssl": true,
-        "account": "deluxe",
-        "password": "1e304fc1-13da-4265-a5b9-694b28dffc44"
+        "account": "",
+        "password": ""
     },
     "application": {
         "name": "webapi-template-Dev",
